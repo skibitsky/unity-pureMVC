@@ -2,7 +2,6 @@
 This is a Unity PureMVC framework contains pureMVC only and there is nothing else.
 
 
-[PureMVC C# Standard Framework on GitHub](https://github.com/PureMVC/puremvc-csharp-standard-framework)
 
 ### Core
 
