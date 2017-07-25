@@ -31,7 +31,7 @@ We may register mediator and proxy in command or Facade.
 In this case we make a following process flow :
 Command -> Execute ->Register Proxy and Mediator-> Proxy send notification -> Mediator receive notification
 
-####Sample command
+#### Sample command
 ```cs
 public class StartUpCommand : PureMVC.Patterns.SimpleCommand {
 	public override void Execute(PureMVC.Interfaces.INotification notification)
@@ -53,7 +53,7 @@ public class StartUpCommand : PureMVC.Patterns.SimpleCommand {
 }
 ```
 
-####Sample proxy
+#### Sample proxy
 ```cs
 public class SampleProxy : Proxy,IFWProxy{
 
@@ -91,7 +91,7 @@ public class SampleProxy : Proxy,IFWProxy{
 }
 ```
 
-####Sample mediator
+#### Sample mediator
 ```cs
 public class SampleMediator :  Mediator, IFWMediator{
 	public static string NAME="smapleMediator";
